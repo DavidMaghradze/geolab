@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="slider" class="slider">
+        <header class="topnav">
+            <div class="topnav__logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 411.25 189.82"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M72,47.5l37.1,140.16H79.7L73.22,158H35.92l-6.48,29.64H0L37.1,47.5Zm-3.73,87.35-13.54-63h-.39l-13.55,63Z"/><path class="cls-1" d="M145.46,145.26a63.3,63.3,0,0,0,.69,9.72,21.7,21.7,0,0,0,2.55,7.65,13.57,13.57,0,0,0,5.1,5.1,18.91,18.91,0,0,0,16.4,0,13.9,13.9,0,0,0,5-5.1,22.11,22.11,0,0,0,2.55-7.65,63.3,63.3,0,0,0,.69-9.72V47.5h28.27v97.76q0,13.35-3.73,22.08a35.27,35.27,0,0,1-10,13.84,33.9,33.9,0,0,1-14.34,6.87A77.37,77.37,0,0,1,162,189.82a87.57,87.57,0,0,1-16.69-1.57,33.94,33.94,0,0,1-14.33-6.38,32.81,32.81,0,0,1-10-13.64q-3.73-8.83-3.73-23V47.5h28.27Z"/><path class="cls-1" d="M306.62,70.66H276v117H247.73v-117H217.11V47.5h89.51Z"/><path class="cls-1" d="M317.32,88.23q1.47-13.44,6.48-23.06a36.32,36.32,0,0,1,14.43-15q9.42-5.4,25.32-5.4t25.32,5.4a36.26,36.26,0,0,1,14.43,15q5,9.61,6.48,23.06a271.25,271.25,0,0,1,1.47,29.35A270.5,270.5,0,0,1,409.78,147a64.72,64.72,0,0,1-6.48,23,34.43,34.43,0,0,1-14.43,14.73q-9.42,5.1-25.32,5.1t-25.32-5.1A34.48,34.48,0,0,1,323.8,170a64.72,64.72,0,0,1-6.48-23,270.5,270.5,0,0,1-1.47-29.45A271.25,271.25,0,0,1,317.32,88.23Zm27.48,53.4a67,67,0,0,0,2.75,16.09c1.38,4.12,3.34,7.14,5.89,9s5.92,2.85,10.11,2.85,7.56-.95,10.11-2.85,4.51-4.91,5.89-9a67,67,0,0,0,2.75-16.09q.68-9.91.68-24t-.68-24a68.36,68.36,0,0,0-2.75-16.1q-2.07-6.27-5.89-9.12t-10.11-2.85q-6.29,0-10.11,2.85t-5.89,9.12a68.36,68.36,0,0,0-2.75,16.1q-.69,9.83-.68,24T344.8,141.63Z"/><circle class="cls-1" cx="261.62" cy="16.58" r="16.58"/></g></g></svg>
+            </div>
+            <nav class="topnav__navigation">
+                <ul>
+                    <li><a href="#slider" class="active scroll">Home</a></li>
+                    <li><a href="#services" class="scroll">Services</a></li>
+                    <li><a href="#contact" class="scroll">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </header>
+        <div class="slider-items">
+            <div class="slider-active slider__item">
+                <figure class="slider__image">
+                    <img src="img/slider1.jpg" alt="">
+                </figure>
+                <section class="slider__item-content">
+                    <span class="slider__item-date">27.12</span>
+                    <h2 class="slider__item-title">Vintage Auto Exhibition</h2>
+                </section>
+            </div>
+            <div class="slider__item">
+                <figure class="slider__image">
+                    <img src="img/slider2.jpg" alt="">
+                </figure>
+                <section class="slider__item-content">
+                    <span class="slider__item-date">27.12</span>
+                    <h2 class="slider__item-title">Vintage Auto Exhibition</h2>
+                </section>
+            </div>
+            <div class="slider__item">
+                <figure class="slider__image">
+                    <img src="img/slider3.jpg" alt="">
+                </figure>
+                <section class="slider__item-content">
+                    <span class="slider__item-date">27.12</span>
+                    <h2 class="slider__item-title">Vintage Auto Exhibition</h2>
+                </section>
+            </div>
+        </div>
+        <div class="slider__arrow slider__arrow--prev"><i class="fas fa-arrow-left"></i></div>
+        <div class="slider__arrow slider__arrow--next"><i class="fas fa-arrow-right"></i></div>
+        <div class="circles">
+        	<div class="big">
+        		<div class="circles__item circles__big"></div>
+        		<div class="circles__item circles__big"></div>
+        	</div>
+        	<div class="small">
+        		<div class="circles__item circles__small--red"></div>
+        		<div class="circles__item circles__small--red"></div>
+        		<div class="circles__item circles__small--white"></div>
+        	</div>
+        </div>
+    </div>
+    <main>
+        <div id="services" class="services">
+            <header class="services__header">
+                <h3 class="services__title">The corner garage for collector cars</h3>
+            </header>
+            <div class="services__container">
+                <section class="services__container-item">
+                    <figure class="services__icon">
+                        <img src="img/modify.png" alt="">
+                        <h4 class="services__title">modify</h4>
+                    </figure>
+                </section>
+                <section class="services__container-item">
+                    <figure class="services__icon">
+                        <img src="img/buy.png" alt="">
+                        <h4 class="services__title">buy</h4>
+                    </figure>
+                </section>
+                <section class="services__container-item">
+                    <figure class="services__icon">
+                        <img src="img/repair.png" alt="">
+                        <h4 class="services__title">repair</h4>
+                    </figure>
+                </section>
+            </div>
+            <div class="road">
+                <img src="img/bus.png" alt="">
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <div id="map"></div>
+            <div class="contact__container">
+                <section class="contact__container-item contact__info">
+                    <h2 class="contact__title contact__title--info">contact information</h2>
+                    <article class="contact__info-article">
+                        <h3 class="contact__info-content">click to view</h3>
+                        <nav class="contact__social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </nav>
+                    </article>
+                </section>
+                <section class="contact__container-item contact__touch">
+                        <h2 class="contact__title contact__title--touch">get in touch</h2>
+                        <form class="contact__form">
+                            <div class="contact__form-container">
+                                <div class="contact__form-fields">
+                                    <input name="name" type="text" placeholder="name">
+                                    <p class="errorMessage"></p>
+                                    <input name="email" type="text" placeholder="email">
+                                    <p class="errorMessage"></p>
+                                    <input name="subject" type="text" placeholder="subject">
+                                    <p class="errorMessage"></p>
+                                    <textarea name="text" id="1" cols="30" rows="10" placeholder="text"></textarea>
+                                </div>
+                                <div class="contact__form-add">
+                                    <div class="contact__form-gender">
+                                        <div><input name="gender" type="radio"><span>male</span></div>
+                                        <div><input name="gender" type="radio"><span>female</span></div>
+                                    </div>
+                                    <div class="contact__form-options">
+                                        <p>Sign up for newsletter:</p>
+                                        <div><input name="option1" type="checkbox"><span>receive images</span></div>
+                                        <div><input name="option2" type="checkbox"><span>receive promotions</span></div>
+                                        <div><input name="option3" type="checkbox"><span>receive updates</span></div>
+                                        <div><input name="option4" type="checkbox"><span>receive job offers</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="contact__form-submit">send</button>
+                        </form>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="copyright">
+        <p>2018</p>
+        <p>Author: David Maghradze</p>
+    </footer>
+    <script>
+        function initMap(){
+            var options = {
+                zoom: 16,
+                center: {lat:41.717492, lng:44.785077}
+            }
+
+            var map = new google.maps.Map(document.getElementById('map'),options)
+            
+            var marker = new google.maps.Marker({
+                position: {lat:41.717492, lng:44.785077},
+                map: map,
+                icon: 'img/geomap.png'
+            });
+
+            var infoWindow = new google.maps.InfoWindow({
+                content: '<h1>Geolab</h1>'
+            });
+
+            marker.addListener('click', function(){
+                infoWindow.open(map,marker);
+            })
+
+        }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuZWhYXDnx3B6IsGoj7AvKGaG-UZNofRw&callback=initMap">
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
